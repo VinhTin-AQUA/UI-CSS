@@ -1,9 +1,11 @@
-import SlidingSidebarMenu from "./components/UI Components/SlidingSidebarMenu/SlidingSidebarMenu"
+import ModernCSSButtonHover from "./components/UI Components/ModernCSSButtonHover/ModernCSSButtonHover"
+
+
 function App() {
 
   return (
     <div>
-      <SlidingSidebarMenu />
+      <ModernCSSButtonHover />
     </div>
   )
 }
