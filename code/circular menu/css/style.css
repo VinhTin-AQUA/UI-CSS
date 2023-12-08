@@ -1,0 +1,115 @@
+body {
+	background-color: black;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.menu-wrapper {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+.collapse-btn {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border: none;
+	width: 40px;
+	height: 40px;
+	background-color: whitesmoke;
+	border-radius: 50%;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	transition: 70ms;
+}
+
+.menu-container {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 200ms;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-container .menu-item {
+	position: absolute;
+	font-size:  20px;
+	line-height: 42px;
+	text-align: center;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: white;
+	overflow: hidden;
+	transition: 400ms;
+	user-select: none;
+	cursor: pointer;
+}
+
+.menu-container .menu-item:nth-child(1) a {
+	color: #0866ff;
+}
+
+.menu-container .menu-item:nth-child(2) a {
+	color: #15803d;
+}
+
+.menu-container .menu-item:nth-child(3) a {
+	color: #3fa2fe;
+}
+
+.menu-container .menu-item:nth-child(4) a {
+	color: #e60023;
+}
+
+.menu-container .menu-item:nth-child(5) a {
+	color: #21262d;
+}
+
+.menu-container .menu-item:nth-child(6) a {
+	color: #e11d48;
+}
+
+.menu-container .menu-item:nth-child(7) a {
+	color: #0a66c2;
+}
+
+.menu-container .menu-item:nth-child(8) a {
+	color: #ec4899;
+}
+
+.menu-container .menu-item:nth-child(9) a {
+	color: #4f46e5;
+}
+
+.menu-container .menu-item:nth-child(10) a {
+	color: #e11d48;
+}
+
+.collapse-btn:hover {
+	background-color: greenyellow;
+}
+
+.menu-container .menu-item:hover {
+	box-shadow: 0px 0px 11px 2px rgba(20,255,0,0.64);
+}
