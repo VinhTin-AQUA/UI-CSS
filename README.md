@@ -35,4 +35,4 @@
 
 - Video demo
 
-	![text](_docs/star/star.png)
+	[![demo](/_docs/star/star.png)](/_docs/star/star.mp4)
