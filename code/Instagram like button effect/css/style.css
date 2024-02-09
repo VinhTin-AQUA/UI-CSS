@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.heart-btn {
+	outline: none;
+	border: none;
+	width: 100px;
+	height: 100px;
+	font-size: 100px;
+	background-color: transparent;
+	cursor: pointer;
+    
+}
+
+.heart-btn img {
+	filter: brightness(0) saturate(100%) invert(35%) sepia(91%) saturate(7224%) hue-rotate(351deg) brightness(92%) contrast(86%);
+    transition: all ease 500ms;
+}
+
+.heart-btn.active img {
+	transform: scale(1.5);
+    
+}

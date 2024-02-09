@@ -36,3 +36,15 @@
 - Video demo
 
 	[![demo](/_docs/star/star.png)](/_docs/star/star.mp4)
+
+#### Instagram like button effect
+
+- [Source](_docs/Instagram%20like%20button%20effect/)
+
+- Images
+	![demo1](_docs/Instagram%20like%20button%20effect/demo1.png)
+	![demo1](_docs/Instagram%20like%20button%20effect/demo2.png)
+
+- Video demo
+
+	[![demo](/_docs/Instagram%20like%20button%20effect/demo1.png)](/_docs/Instagram%20like%20button%20effect/Instagram%20like%20button%20effect.mp4)
