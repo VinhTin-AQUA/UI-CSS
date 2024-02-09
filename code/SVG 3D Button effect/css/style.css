@@ -1,0 +1,58 @@
+:root {
+    --bg-1: url('../svg/heart-solid.svg');
+    --bg-2: url('../svg/star-and-crescent-solid.svg');
+    --bg-3: url('../svg/star-solid.svg');
+    --bg-4: url('../svg/thumbs-up-solid.svg');
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.heart-container {
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+    cursor: pointer;
+}
+
+.heart-container::before,
+.heart-container::after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: var(--bg-2);
+	transition: all 100ms ease;
+    background-repeat: no-repeat;
+}
+
+.heart-container::before {
+    filter: brightness(0) saturate(100%) invert(53%) sepia(96%) saturate(398%) hue-rotate(90deg) brightness(98%) contrast(86%) drop-shadow(0px 0px 4px #22c55e);
+}
+
+.heart-container::after {
+	position: absolute;
+	top: -15px;
+	left: -15px;
+
+    filter: brightness(0) saturate(100%) invert(85%) sepia(10%) saturate(1549%) hue-rotate(84deg) brightness(104%) contrast(87%) drop-shadow(0px 0px 4px #86efac);
+}
+
+.heart-container:active::after {
+	top: 0px;
+	left: 0px;
+}

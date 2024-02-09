@@ -8,6 +8,10 @@
 
 * [Star canvas](#Star-canvas)
 
+* [Instagram like button effect](#Instagram-like-button-effect)
+
+* [SVG 3D Button effect](#SVG-3D-Button-effect)
+
 #### Circular Menu - Add more menu items
 
 - [Source code](code/circular%20menu/)
@@ -39,7 +43,7 @@
 
 #### Instagram like button effect
 
-- [Source](_docs/Instagram%20like%20button%20effect/)
+- [Source](code/Instagram%20like%20button%20effect/)
 
 - Images
 	![demo1](_docs/Instagram%20like%20button%20effect/demo1.png)
@@ -48,3 +52,13 @@
 - Video demo
 
 	[![demo](/_docs/Instagram%20like%20button%20effect/demo1.png)](/_docs/Instagram%20like%20button%20effect/Instagram%20like%20button%20effect.mp4)
+
+#### SVG 3D Button effect
+
+- [Source](code/SVG%203D%20Button%20effect/)
+
+- Image
+	![demo](_docs/SVG%203D%20Button%20effect/demo.png)
+
+- Video demo
+	[![video](_docs/SVG%203D%20Button%20effect/demo.png)](_docs/SVG%203D%20Button%20effect/SVG%203D%20effect%20button.mp4)
