@@ -6,6 +6,8 @@
 
 * [Text Linear gradient](#Text-Linear-Gradient)
 
+* [Star canvas](#Star-canvas)
+
 #### Circular Menu - Add more menu items
 
 - [Source code](code/circular%20menu/)
@@ -26,3 +28,11 @@
 
 - Images
 	![text](_docs/text%20linear%20gradident/Screenshot%202023-12-15%20140642.png)
+
+#### Star canvas
+
+- [Source](code/Star/)
+
+- Video demo
+
+	[![demo](/_docs/star/star.png)](/_docs/star/star.mp4)
