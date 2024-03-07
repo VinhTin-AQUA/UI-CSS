@@ -12,6 +12,8 @@
 
 * [SVG 3D Button effect](#SVG-3D-Button-effect)
 
+* [Loading animation 1](#Loading-animation-1)
+
 #### Circular Menu - Add more menu items
 
 - [Source code](code/circular%20menu/)
@@ -62,3 +64,14 @@
 
 - Video demo
 	[![video](_docs/SVG%203D%20Button%20effect/demo.png)](_docs/SVG%203D%20Button%20effect/SVG%203D%20effect%20button.mp4)
+
+
+#### Loading animation 1
+
+- [Source](code/LoadingAnimation%201/)
+
+- Image
+	![demo](_docs/loading%20animation%201/loading%20animation.png)
+
+- Video demo
+	[![video](_docs/loading%20animation%201/loading%20animation.png)](_docs/loading%20animation%201/loading%20animation.mp4)
