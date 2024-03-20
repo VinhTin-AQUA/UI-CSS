@@ -14,6 +14,9 @@
 
 * [Loading animation 1](#Loading-animation-1)
 
+* [Padumn animdation](#Padumn-animdation)
+
+
 #### Circular Menu - Add more menu items
 
 - [Source code](code/circular%20menu/)
@@ -75,3 +78,16 @@
 
 - Video demo
 	[![video](_docs/loading%20animation%201/loading%20animation.png)](_docs/loading%20animation%201/loading%20animation.mp4)
+
+
+#### Padumn animdation
+
+- [Source](code/Padumn%20animdation)
+
+- Image
+	![demo1](_docs/Padumn%20animdation/demo1.png)
+
+	![demo2](_docs/Padumn%20animdation/demo2.png)
+
+- Video demo
+	[![video](_docs/Padumn%20animdation/demo1.png)](_docs/Padumn%20animdation/Padumn%20animdation%20short.mp4)
